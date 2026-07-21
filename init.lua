@@ -102,7 +102,7 @@ do
   vim.g.have_nerd_font = true
 
   -- Line for char width 
-  vim.opt.colorcolumn = "80"
+  vim.opt.colorcolumn = "100"
 
   -- [[ Setting options ]]
   --  See `:help vim.o`
