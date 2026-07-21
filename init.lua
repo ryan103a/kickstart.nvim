@@ -993,6 +993,8 @@ do
 
   vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
   vim.pack.add({ 'https://github.com/stevearc/oil.nvim', })
-  require('oil').setup()
+  require('oil').setup({
+    default_file_explorer = true,
+  })
 
 end
